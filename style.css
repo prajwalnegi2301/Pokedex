@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(183 179 176 / 96%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 70rem;
+  min-height: 55vh;
+  background-color: #fdeaee;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  margin-top: 4rem;
+}
+
+.desc,
+.name {
+  background-color: #b8f2de2b;
+}
+
+.card {
+  width: 20rem;
+  height: 23rem;
+  background-color: #57f9c23b;
+  margin: auto;
+  text-align: center;
+}
+
+.card img {
+  width: 8rem;
+  padding-left: 2rem;
+  background-color: #b8f2de2b;
+}
+
+.id {
+  color: rgb(114, 114, 118);
+  margin-right: 18rem;
+  background-color: #b8f2de2b;
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+  background-color: #b8f2de2b;
+}
+.char {
+  background-color: #f2074abb;
+  border-radius: 4px;
+  margin: auto 7.3rem;
+}
+
+.card a {
+  margin-top: 20px;
+}
+
+.title {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 2.6rem;
+  margin-top: 6rem;
+}
+
+.search{
+  position: absolute;
+  right: 8rem;
+  top: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border-width: 0px;
+}
+
+#input {
+  width: 13rem;
+  padding: 0.4rem;
+  background-color: white;
+}
+
+.submit-btn {
+  padding: 0.37rem;
+  background-color: #9df4e9fa;
+  right: 3.7rem;
+  width: 3.8rem;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  /* background-color: rgb(54 53 52 / 52%);
+   */
+  background-color: #c9f8f1fa;
+  width: 4rem;
+}
